@@ -1,0 +1,12 @@
+{
+    "Thời gian load data": "2.3118 seconds",
+    "Thời gian training": "3.1204 seconds",
+    "Best iteration": "1",
+    "AUC-ROC": "0.9214",
+    "Accuracy": "0.9989",
+    "F1-Score": "0.7304",
+    "Precision": "0.6364",
+    "Recall": "0.8571",
+    "Inference latency (1 row)": "1.4675 ms",
+    "Inference throughput (1000 rows)": "1.6177 ms"
+}

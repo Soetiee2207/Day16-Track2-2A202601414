@@ -1,0 +1,12 @@
+Host bastion
+    HostName 98.80.198.251
+    User ubuntu
+    IdentityFile "e:\26.AI-VIN\Track 02\Day16-Track2-2A202601414\terraform\lab-key"
+    StrictHostKeyChecking no
+
+Host target
+    HostName 10.0.10.133
+    User ubuntu
+    ProxyJump bastion
+    IdentityFile "e:\26.AI-VIN\Track 02\Day16-Track2-2A202601414\terraform\lab-key"
+    StrictHostKeyChecking no
